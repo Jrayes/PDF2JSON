@@ -1,5 +1,5 @@
-=================================================PDF2JSON======================================================
-*==============================================================================================================*
+PDF2JSON
+
 
 PDF2JSON: A lightweight and simple application that converts PDF files to JSON strings, ready for database insertion. 
   USAGE: PDFtoJSON.py <pdffilename> <number of columns in PDF Table>
@@ -8,11 +8,9 @@ PDF2JSON: A lightweight and simple application that converts PDF files to JSON s
   However PDF files can be aggregated and then applied to this script for similar results.
 CHANGES MADE: 
 Linebreaks removed from before and after data in each cell of PDF table.
-CURRENT VERSION:
- 1.2 Alpha
 
 DEPENDENCIES: 
 pdftohtml
 (pip install pdftohtml)
 
-*==============================================================================================================*
+
